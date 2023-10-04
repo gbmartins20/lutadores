@@ -1,0 +1,144 @@
+@keyframes brasi {
+  0% {
+    color: green;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: yellow;
+  }
+}
+@keyframes leiros {
+  0% {
+    color: yellow;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: green;
+  }
+}
+body {
+  margin: 0;
+  background-image: url("imagens/Fundo.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: brown;
+}
+* {
+  font-family: comic sans ms;
+}
+.titulo {
+  text-align: center;
+  margin-top: 50px;
+  color: aliceblue;
+  font-weight: 800;
+  font-size: 150%;
+  text-decoration: underline;
+}
+.titulo .letra-verde {
+  color: green;
+  text-decoration: underline blue;
+  animation-name: brasi;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.titulo .letra-amarela {
+  color: yellow;
+  text-decoration: underline blue;
+  animation-name: leiros;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.titulo .letra-vermelha {
+  color: brown;
+  font-weight: bold;
+}
+.margim {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-radius: 16px;
+}
+.card {
+  border: 1px solid orange;
+  background-color: #ffa500;
+  border-radius: 16px;
+  width: 350px;
+  max-width: 350px;
+  height: 400px;
+  max-height: 500px;
+  margin: 30px auto;
+  box-shadow: 10px 10px 1px #000000;
+}
+.img img {
+  width: 100%;
+  max-height: 197px;
+  border-radius: 16px 16px 0 0;
+  padding-bottom: 0;
+  margin-bottom: 16px;
+}
+.img .name {
+  font-size: 116%;
+  line-height: 0;
+  padding: 0px 15px;
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 16px;
+  color: rgb(223, 223, 223);
+  text-decoration: none;
+}
+.description {
+  margin: 15px;
+}
+.description p {
+  overflow-y: auto;
+  color: black;
+  background-color: rgba(151, 57, 2, 0.3);
+  max-height: 120px;
+  border-radius: 16px;
+}
+.rodape p {
+  font-size: 15px;
+  color: aliceblue;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 0px;
+  line-height: 50px;
+}
+.WanderleiSilva .name {
+  background-color: #4b000f;
+}
+.Minotauro .name {
+  background-color: #731702;
+}
+.VitorBelfort .name {
+  background-color: #03a678;
+}
+.AmandaNunes .name {
+  background-color: #fa023c;
+}
+.JoseAldo .name {
+  background-color: #02a083;
+}
+.AndersonSilva .name {
+  background-color: #026363;
+}
